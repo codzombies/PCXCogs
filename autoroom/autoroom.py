@@ -61,7 +61,7 @@ class AutoRoom(
     perms_public: ClassVar[dict[str, bool]] = {
         "view_channel": True,
         "connect": True,
-        "send_messages": True,
+        "send_messages": False,
     }
     perms_locked: ClassVar[dict[str, bool]] = {
         "view_channel": True,
