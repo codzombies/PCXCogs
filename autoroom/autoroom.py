@@ -84,8 +84,8 @@ class AutoRoom(
     }
     perms_autoroom_owner: ClassVar[dict[str, bool]] = {
         **perms_public,
-        "manage_channels": True,
-        "manage_messages": True,
+        "manage_channels": False,
+        "manage_messages": False,
     }
     perms_bot_dest: ClassVar[dict[str, bool]] = {
         **perms_autoroom_owner,
