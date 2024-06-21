@@ -104,8 +104,8 @@ class AutoRoom(
     )
     perms_autoroom_owner_legacy_text: ClassVar[dict[str, bool]] = {
         **perms_legacy_text_allow,
-        "manage_channels": True,
-        "manage_messages": True,
+        "manage_channels": False,
+        "manage_messages": False,
     }
     perms_bot_dest_legacy_text = perms_autoroom_owner_legacy_text
 
